@@ -1,0 +1,452 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon.com.Spend Less.Smile More.</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+<header> 
+  <!--navbar starts here-->
+  <div class="navbar">
+    <div class="nav-left">
+      <div id="nav-logo">
+        <img src="Assests/amazon_logo.png" alt="">
+      </div>
+    </div>
+    <div class="nav-address">
+      <div class="add-wrap">
+        <p class="add-first">Deliver to</p>
+        <div class="add-icon">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="add-second">Bangladesh</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="nav-search">
+      <div class="search-wrap">
+        <div class="opt">
+          <select name="" id="">
+            <option value="">All</option>
+            <Option value="dog"> All Departments</option>
+            <option value="cat">Arts & Crafts</option>
+            <option value="hamster">Automotive</option>
+            <option value="parrot">Baby</option>
+            <option value="spider">Beauty & Personal Care</option>
+            <option value="goldfish">Books</option>
+          </select>
+        </div>
+        <div class="search-box">
+          <input type="text" placeholder="Search Amazon">
+        </div>
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+    </div>
+  
+    <div class="nav-right">
+      <div class="dropdown">
+        <button onclick="">
+          <div class="btn-img"><img src="Assests/usa-flag.png" alt=""></div>
+          <div class="btn-text">EN</div>
+          <div class="btn-arrow"><i class="fa-solid fa-sort-down"></i></div>
+        </button>
+        <div class="dropdown-content" id="dropdown-content">
+          <label for="">
+            <span id="cl">Change language</span>
+            <span><a href="" id="lm">Learn more</a> </span>
+          </label>
+          <div class="label">
+            <label><input type="radio" id="RB" name="options" value=""> English-EN</label>
+            <div class="hr">
+              <hr>
+            </div>
+            <label><input type="radio" id="RB" name="options" value=""> Espanol-ES</label>
+            <label><input type="radio" id="RB" name="options" value=""> Deutsch-DE</label>
+            <label><input type="radio" id="RB" name="options" value=""> portugues-PT</label>
+            <label><input type="radio" id="RB" name="options" value=""> 中国人-ZH</label>
+            <label><input type="radio" id="RB" name="options" value=""> 日本語 - ZH</label>
+            <label><input type="radio" id="RB" name="options" value=""> العربية-AR</label>
+          </div>
+          <div class="hr">
+            <hr>
+          </div>
+          <div class="currency">
+            <span id="cl">Change currency </span>
+            <span><a href="" id="lm">Learn more</a></span>
+            <div class="us-dollar">
+              <span>$-USD-US Dollar</span>
+              <span class="chng">Change</span>
+            </div>
+            <div class="hr">
+              <hr>
+            </div>
+            <div class="container">
+              <img id="usa-shop" src="Assests/usa-flag.png" alt="">
+              <span id="shop">You are shopping on Amazon.com</span>
+            </div>
+            <div class="chng-region">
+              <span>Change country/region</span>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+  
+      <div class="nav-account">
+        <div class="account-wrap">
+          <p class="account-first">Hello, sign in</p>
+          <div class="account-icon">
+            <p class="account-second">Account & Lists</p>
+            <i class="fa-solid fa-sort-down"></i>
+          </div>
+        </div>
+        <div class="dropdown-2">
+          <div class="vertical-div">
+            <div class="boxx">
+              <div class="sign-in">
+                <p>Sign in</p>
+              </div>
+              <span id="new-cus">New customer? <a href="">Start here</a></span>
+            </div>
+            <hr>
+            <div class="horizontal-div">
+              <div class="box">
+                <ul id="un-list">
+                  <li><b><span style="font-size:.97rem;">Your Lists</span></b></li>
+                  <li>Create a List</li>
+                  <li>Find a List or Registry</li>
+                </ul>
+              </div>
+              <div class="vl"></div>
+              <div class="box">
+                <ul id="un-list">
+                  <li><b><span style="font-size:.97rem;">Your Account</span></b></li>
+                  <li>Account</li>
+                  <li>Others</li>
+                  <li>Recommendations</li>
+                  <li>Browsing History</li>
+                  <li>Watchlist</li>
+                  <li>Video Purchases & Rentals</li>
+                  <li>Kindle Unlimited</li>
+                  <li>Content & Devices</li>
+                  <li>Subscribe & Save Items</li>
+                  <li>Memberships & Subscriptions</li>
+                  <li>Music Library</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      <div class="nav-order">
+        <div class="order-wrap">
+          <p class="order-first">Returns</p>
+          <p class="order-second">& Orders</p>
+        </div>
+      </div>
+  
+      <div class="nav-cart">
+        <div class="cart-wrap">
+          <div class="cart-icon">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p class="cart-first">Cart</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!--Panel starts here-->
+  <div class="panel">
+    <div class="menu">
+      <i class="fa-solid fa-bars"></i>
+      <span>All</span>
+    </div>
+    <div class="menu-ops">
+      <div class="td">Today's Deal</div>
+      <div class="cs">Customer Service</div>
+      <div class="reg">Registry</div>
+      <div class="gc">Gift Cards</div>
+      <div class="sell">Sell</div>
+    </div>
+  </div>
+</header> 
+
+
+
+
+<div class="body">
+    <!-- Slideshow container -->
+    <div class="slideshow-container">
+    
+      <!-- Full-width images with number and caption text -->
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="Assests/Beauty-products.jpg" alt="Beauty Product">
+        <div class="text"></div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="Assests/Kitchen-fav.jpg" alt="Kitchen Favorite">
+        <div class="text"></div>
+      </div>
+    
+      <div class="mySlides fade">
+        <div class="numbertext"></div>
+        <img src="Assests/Shop-Books.jpg" alt="Shop Books">
+        <div class="text"></div>
+      </div>
+    
+      <!-- Next and previous buttons -->
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <!--contents-->
+    <div class="shop-content">
+      <div class="box">
+        <h2 id="caption">Gaming accessories</h2>
+        <div class="four-img">
+          <div class="img-container">
+            <img src="Assests/Fuji_Quad.jpg" alt="">
+            <span>Headsets</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/Fuji_Quad_Chair.jpg" alt="">
+            <span>Chairs</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/Fuji_Quad_Keyboard.jpg" alt="">
+            <span>Keyboards</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/Fuji_Quad_Mouse.jpg" alt="">
+            <span>Computer mice</span>
+          </div>
+        </div>
+        <button>See more</button>
+      </div>
+      <div class="box">
+        <h2 id="caption">Refresh your space</h2>
+        <div class="four-img">
+          <div class="img-container">
+            <img src="Assests/DesktopQuadCat.jpg" alt="">
+            <span>Dining</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/DesktopQuadCat2.jpg" alt="">
+            <span>Home</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/DesktopQuadCat3.jpg" alt="">
+            <span>Kitchen</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/DesktopQuadCat4.jpg" alt="">
+            <span>Health and Beauty</span>
+          </div>
+        </div>
+        <button>See all deals</button>
+      </div>
+      <div class="box">
+        <h2 id="caption">Deals in PCs</h2>
+        <img src="Assests/Fuji_Desktop.jpg" alt="">
+        <button>Shop now</button>
+      </div>
+      <div class="box">
+        <h2 id="caption">Shop deals in Fashion</h2>
+        <div class="four-img">
+          <div class="img-container">
+            <img src="Assests/Jeans.jpg" alt="">
+            <span>Jeans under $50</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/Top.jpg" alt="">
+            <span>Tops under $50</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/dresses.jpg" alt="">
+            <span>Dresses under $50</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/shoes.jpg" alt="">
+            <span>Shoes under $50</span>
+          </div>
+        </div>
+        <button>Explore more</button>
+      </div>
+    
+    </div>
+    <div class="shop-content2">
+      <div class="box">
+        <h2 id="caption">Gaming accessories</h2>
+        <div class="four-img">
+          <div class="img-container">
+            <img src="Assests/Fuji_Quad.jpg" alt="">
+            <span>Headsets</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/Fuji_Quad_Chair.jpg" alt="">
+            <span>Chairs</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/Fuji_Quad_Keyboard.jpg" alt="">
+            <span>Keyboards</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/Fuji_Quad_Mouse.jpg" alt="">
+            <span>Computer mice</span>
+          </div>
+        </div>
+        <button>See more</button>
+      </div>
+      <div class="box">
+        <h2 id="caption">Deals in PCs</h2>
+        <img src="Assests/Fuji_Desktop.jpg" alt="">
+        <button>Shop now</button>
+      </div>
+      <div class="box">
+        <h2 id="caption">Refresh your space</h2>
+        <div class="four-img">
+          <div class="img-container">
+            <img src="Assests/DesktopQuadCat.jpg" alt="">
+            <span>Dining</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/DesktopQuadCat2.jpg" alt="">
+            <span>Home</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/DesktopQuadCat3.jpg" alt="">
+            <span>Kitchen</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/DesktopQuadCat4.jpg" alt="">
+            <span>Health and Beauty</span>
+          </div>
+        </div>
+        <button>See all deals</button>
+      </div>
+      <div class="box">
+        <h2 id="caption">Shop deals in Fashion</h2>
+        <div class="four-img">
+          <div class="img-container">
+            <img src="Assests/Jeans.jpg" alt="">
+            <span>Jeans under $50</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/Top.jpg" alt="">
+            <span>Tops under $50</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/dresses.jpg" alt="">
+            <span>Dresses under $50</span>
+          </div>
+          <div class="img-container">
+            <img src="Assests/shoes.jpg" alt="">
+            <span>Shoes under $50</span>
+          </div>
+        </div>
+        <button>Explore more</button>
+      </div>
+    
+    </div>
+
+   <!--second slider-->
+  <div class="second-slider">
+    <div class="slider-container">
+      <button class="prev" onclick="scrollSlides(-1)">&#10094;</button>
+      <div class="slider">
+        <img src="Assests/gaming_chr.jpg" alt="Beauty Product">
+        <img src="Assests/machine.jpg" alt="Kitchen Favorite">
+        <img src="Assests/machine2.jpg" alt="Shop Books">
+        <img src="Assests/machine3.jpg" alt="Beauty Product">
+        <img src="Assests/extreme.jpg" alt="Kitchen Favorite">
+        <img src="Assests/machine4.jpg" alt="Shop Books">
+        <img src="Assests/safe.jpg" alt="Shop Books">
+        <img src="Assests/bed.jpg" alt="Shop Books">
+        <img src="Assests/drs.jpg" alt="Shop Books">
+        <img src="Assests/blender.jpg" alt="Shop Books">
+      </div>
+        <button class="next" onclick="scrollSlides(1)">&#10095;</button>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <div class="foot-panel1">
+    Back to Top
+  </div>
+  <div class="foot-panel2">
+    <ul>
+      <p><b>Get to know us</b></p>
+      <a href="">Careers</a>
+      <a href="">Blog</a>
+      <a href="">About Amazon</a>
+      <a href="">Investor Relations</a>
+      <a href="">Amazon Devices</a>
+      <a href="">Amazon Science</a>
+    </ul>
+    <ul>
+      <p><b>Make Money with Us</b></p>
+      <a href="">Sell products on Amazon</a>
+      <a href="">Sell on Amazon Business</a>
+      <a href="">Sell apps on Amazon</a>
+      <a href="">Become an Affiliate</a>
+      <a href="">Advertise Your Products</a>
+      <a href="">Self Publish With Us</a>
+      <a href="">Host an Amazon Hub</a>
+      <a href="">See More Make Money with Us"</a>
+    </ul>
+    <ul>
+      <p><b>Amazon Payment Products</b></p>
+      <a href="">Amazon Business card</a>
+      <a href="">Shop with Points</a>
+      <a href="">Relaod Your Balance</a>
+      <a href="">Amazon Currency Converter</a>
+    </ul>
+    <ul>
+      <p><b>Let Us Help You</b></p>
+      <a href="">Amazon and COVID-19</a>
+      <a href="">Your Account</a>
+      <a href="">Your Orders</a>
+      <a href="">Shipping Rates & Policies</a>
+      <a href="">Returns & Placements</a>
+      <a href="">Manage Your Content and Devices</a>
+      <a href="">Help</a>
+    </ul>
+  </div>
+  <div class="foot-panel3">
+    <div class="logo"></div>
+    <button id="btn">English</button>
+    <button id="btn">$ USD-U.S.Dollar</button>
+    <button id="btn">United States</button>
+  </div>
+  <div class="foot-panel4">
+    <div class="pages">
+      <a href="">Conditions of Usse</a>
+      <a href="">Privacy Notice</a>
+      <a href="">Consumer Health Data Privacy Disclosure</a>
+      <a href="">Your Ads Privacy Choices</a>
+    </div>
+    <div class="copyright">
+      © 1996-2024, Amazon.com, Inc. or its affiliates
+    </div>
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>

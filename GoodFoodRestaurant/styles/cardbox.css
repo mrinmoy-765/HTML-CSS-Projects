@@ -1,0 +1,88 @@
+/* 0.69 */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+#hero{
+    height: 412px;
+    font-family: "Works Sans";
+    
+}
+
+.title-container p,h1{
+    text-align: center;
+    
+}
+
+#sub-title{
+        color: rgb(16, 16, 16);
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0%;
+        opacity: 0.6;
+}
+
+#heading{
+        color: rgb(16, 16, 16);
+        font-size: 33px;
+        font-weight: 700;
+        line-height: 44px;
+        letter-spacing: 0%;
+        margin-top: 10px;
+}
+
+.card-container{
+    margin-top: 33px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 17px;
+}
+
+.card-container img{
+    
+        width: 293px;
+        height: 195px;
+        flex: none;
+        order: 0;
+        flex-grow: 0;
+        margin: 22px 0px;
+}
+
+.card-info{
+    
+        width: 293px;
+        height: 145px;
+        padding: 0px;
+        
+}
+
+
+.restaurant{
+
+    
+        width: 140px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 9px 22px 9px 22px;
+        margin: 0 auto;
+        border-radius: 5px;
+        background: rgba(82, 195, 3, 0.15);
+}
+
+.res-name{
+    color: rgb(16, 16, 16);
+    
+        font-size: 17px;
+        font-weight: 600;
+        line-height: 19px;
+        letter-spacing: 0%;
+        text-align: center;
+}
