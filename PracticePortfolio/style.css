@@ -8,6 +8,10 @@
     font-family: "Open Sans";
 }
 
+.secondary-bg {
+    background-color: #FFF8F3;
+}
+/* Banner CSS */
 header{
     background-image: url("images/developer.png");
     background-repeat: no-repeat;
@@ -76,9 +80,7 @@ header{
 
 }
 
-.secondary-bg{
-        background-color: #FFF8F3;
-}
+
 
 .banner{
     display: flex;
@@ -96,7 +98,6 @@ header{
 .img-container img{
   height: 500px;
   width: auto;
-
 }
 
 
@@ -136,5 +137,87 @@ header{
     display: flex;
     align-items: center;
     gap: 10px;
+    margin-top: 25px;
+}
+
+/* Main Style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+/* About ME CSS */
+
+.section-title{
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+}
+
+.section-description{
+    color: rgb(117, 117, 117);
+    
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: center;
+}
+
+.about{
+    border-radius: 10px;
+    padding: 130px 150px; 
+    text-align: center;
+    margin-top: 130px;
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 60px;
+}
+
+.item-title{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: center;
+        opacity: 0.6;
+}
+
+.item-description{
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: center;
+}
+
+.section-title{
+    margin-bottom: 40px;
+}
+
+.do{
+    border-radius: 10px;
+        padding: 130px 150px;
+        text-align: center;
+}
+
+.skill-container{
+    display: flex;
+    gap: 24px;
+    margin-top: 100px;
+}
+
+.skill{
+    padding: 15px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.skill  h4, p{
+    text-align: left;
     margin-top: 25px;
 }
