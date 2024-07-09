@@ -227,7 +227,7 @@ main{
 .resume-container{
     display: flex;
     gap: 24px;
-    margin-bottom: 130px;
+    margin-bottom: 60px;
 }
 
 .exp-sub-title{
@@ -262,4 +262,41 @@ hr{
         line-height: 41px;
         letter-spacing: 0%;
         text-align: left;
+}
+
+.resume-btn{
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* footer */
+
+.container{
+    display: flex;
+    padding: 130px 230px;
+    justify-content: space-around;
+    align-items: top;
+    gap: 50px;
+}
+
+.footer-container{
+    width: 50%;
+}
+
+.footer-container input,
+ textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.footer-container h2{
+    margin-bottom: 30px;
+}
+
+.social-icon{
+    margin-top: 10px;
+    gap: 15px;
 }
