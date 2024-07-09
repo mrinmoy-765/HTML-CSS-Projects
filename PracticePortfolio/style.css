@@ -181,7 +181,7 @@ main{
 .item-title{
         font-size: 18px;
         font-weight: 400;
-        line-height: 30px;
+        line-height: 20px;
         letter-spacing: 0%;
         text-align: center;
         opacity: 0.6;
@@ -190,13 +190,14 @@ main{
 .item-description{
         font-size: 20px;
         font-weight: 700;
-        line-height: 30px;
+        line-height: 20px;
         letter-spacing: 0%;
         text-align: center;
 }
 
 .section-title{
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .do{
@@ -220,4 +221,45 @@ main{
 .skill  h4, p{
     text-align: left;
     margin-top: 25px;
+}
+
+/* Resume CSS */
+.resume-container{
+    display: flex;
+    gap: 24px;
+    margin-bottom: 130px;
+}
+
+.exp-sub-title{
+    color: rgb(117, 117, 117);
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 27px;
+        letter-spacing: 0%;
+        text-align: left;
+    margin-bottom: 20px;
+}
+
+.exp-title{
+color: rgb(71, 71, 71);
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0%;
+    text-align: left;
+        margin-top: 30px;
+        margin-bottom: 10px;
+}
+
+hr{
+    margin: 30px 0px;
+}
+
+.res-col-title{
+    color: rgb(71, 71, 71);
+        font-size: 30px;
+        font-weight: 700;
+        line-height: 41px;
+        letter-spacing: 0%;
+        text-align: left;
 }
