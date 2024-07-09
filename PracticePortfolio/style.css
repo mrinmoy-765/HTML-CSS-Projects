@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Open Sans";
+}
+
+header{
+    background-image: url("images/developer.png");
+    background-repeat: no-repeat;
+    background-size: contain;  
+}
+
+
+#nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+
+}
+
+#nav ul{
+    list-style: none;  
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    overflow: hidden;
+
+}
+
+#nav a {
+    text-decoration: none;
+    color: black;
+}
+
+#nav h1{
+   
+        font-size: 40px;
+        font-weight: 800;
+        line-height: 61px;
+        letter-spacing: 0%;
+        text-align: left;
+        margin-right: 200px;
+}
+
+#nav span{
+    color: rgb(253, 110, 10);
+}
+
+.Dark-2{
+    color: rgb(71, 71, 71);
+        
+        font-size: 20px;
+        font-weight: 400;
+        line-height: 27px;
+        letter-spacing: 0%;
+        text-align: left;
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: rgb(253, 110, 10);
+    color: rgb(255, 255, 255);
+     
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 27px;
+        letter-spacing: 0%;
+        text-align: left;
+        padding: 10px 20px;
+        border: none;
+
+}
+
+.secondary-bg{
+        background-color: #FFF8F3;
+}
+
+.banner{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(images/header_bg.png);
+    background-position: right bottom;
+    background-size: auto 400px;
+    background-repeat: no-repeat;
+
+}
+
+
+
+.img-container img{
+  height: 500px;
+  width: auto;
+
+}
+
+
+.banner-content{
+    margin: 0 30px 0 120px;
+}
+
+.banner-content h3{
+    color: rgb(71, 71, 71);
+    
+        font-size: 45px;
+        font-weight: 600;
+        line-height: 61px;
+        letter-spacing: 0%;
+        text-align: left;
+}
+
+.banner-content h1{
+    color: rgb(24, 24, 24);
+        font-size: 85px;
+        font-weight: 700;
+        line-height: 116px;
+        letter-spacing: 0%;
+        text-align: left;
+}
+
+.banner-content p{
+    color: rgb(117, 117, 117);
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 0%;
+        text-align: left;
+}
+
+.banner-btn{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 25px;
+}
