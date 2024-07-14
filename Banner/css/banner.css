@@ -7,7 +7,7 @@
 
 .banner {
     min-height: 100vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.812), rgba(0, 0, 0, 0.669)), url("banner.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.812), rgba(0, 0, 0, 0.669)), url("../images/banner.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
