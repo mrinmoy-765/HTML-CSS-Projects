@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header,
+.nav,
+.article,
+.sidebar,
+.advertise,
+.footer{
+    background-color: bisque;
+    border: 2px solid rgba(255, 165, 165, 0.918);
+    border-radius: 5px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  
+}
+
+.nav li {
+    display: block;
+    margin: 3px;
+   
+}
+
+.nav a {
+    text-decoration: none; 
+    padding: 0 10px;
+  
+}
+
+.header{
+    grid-area: header;
+}
+
+.nav {
+    grid-area: nav;
+}
+
+
+.article {
+    grid-area: article;
+}
+.sidebar {
+    grid-area: sidebar;
+}
+.advertise {
+    grid-area: advertise;
+}
+.footer {
+    grid-area: footer;
+}
+
+
+.container{
+    display: grid;
+    gap: 20px;
+    grid-template-areas: 
+    "header    header   header   header"
+    "nav       article  article  sidebar"
+    "nav       article  article  advertise"
+    "footer    footer   footer   footer";
+}
+
+/* Mobile Responsive CSS */
+
+@media screen and (max-width: 576px){
+     .container{
+        grid-template-areas: 
+        "header"
+        "nav"
+        "article"
+        "sidebar"
+        "advertsie"
+        "footer";
+     }
+
+         .header,
+         .nav,
+         .article,
+         .sidebar,
+         .advertise,
+         .footer {
+             background-color: rgb(22, 19, 54);
+             border: 3px solid rgb(235, 157, 157);
+             border-radius: 5px;
+             padding: 20px;
+             margin: 5px;
+             color: bisque;
+         }
+
+                 .nav a {
+                    color: blanchedalmond;
+        
+                 }
+}
+
+/* Tablet Responsive CSS */
+
+@media screen and (min-width: 576px) and (max-width: 992px){
+    .container {
+        grid-template-areas:
+            "header header header"
+            "nav    nav    nav"
+            "sidebar article article"
+            "advertise footer footer";
+    }
+
+    .header,
+    .nav,
+    .article,
+    .sidebar,
+    .advertise,
+    .footer {
+        background-color: rgba(230, 159, 131, 0.534);
+        border: 3px solid rgb(22, 21, 68);
+        border-radius: 5px;
+        padding: 20px;
+        margin: 5px;
+        color: rgb(35, 36, 37);
+    }
+
+    .nav a {
+        color: black;
+        font-size: large;
+        font-weight: 700;
+
+    }
+
+        .nav ul {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 3px;
+    
+        }
+}
