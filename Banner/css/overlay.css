@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.image-box{
+    height: 100vh;
+    position: relative;
+    background-image: url("../images/social-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.image-box::before{
+    position: absolute;
+    content: "";
+    inset: 0;
+    background-color: white;
+    opacity: 70%;
+}
+
+h1{
+    z-index: 1;
+    color: black;
+}
