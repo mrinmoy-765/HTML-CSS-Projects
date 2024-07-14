@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ img {
+     height: 100%;
+     width: 100%;
+ }
+
+.row{
+    height: 400px;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 5px;
+}
+
+.vertical-collage{
+    height: calc((100% - 5px)/2);
+}
+
+.row > div{
+    flex: 1;
+}
+
+.square-collage{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+}
+
+/* Responsive Mobile */
+
+@media screen and (max-width:576px){
+    .row{
+        flex-direction: column;
+        height: auto;
+    }
+}
