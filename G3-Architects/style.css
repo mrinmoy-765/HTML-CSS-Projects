@@ -6,3 +6,156 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+.work-sans-font {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* shared styles */
+.dark-01{
+   color: #131313;
+}
+
+.dark-02 {
+    color: #424242;
+}
+
+.dark-03 {
+    color: #727272;
+}
+
+.dark-04 {
+    color: #A1A1A1;
+}
+
+.dark-05 {
+    color: #D0D0D0;
+}
+
+.dark-06 {
+    color: #E7E7E7;
+}
+
+.dark-07 {
+    color: #F3F3F3;
+}
+
+.white{
+    color: #FFFFFF;
+}
+
+
+.display-flex{
+    display: flex;
+}
+
+body{
+    max-width: 1920px;
+        margin: 0 auto;
+}
+
+/* Header Styles */
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   background: rgba(255, 144, 14, 0.1);
+   
+}
+
+.title{
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 170px;
+}
+.head-link{
+    margin-right: 10.50rem;
+}
+.head-link ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2vw;
+}
+
+.head-link ul{
+    list-style: none;
+}
+
+.head-link a{
+    text-decoration: none;
+}
+
+/* banner style */
+.banner{
+    background: rgba(255, 144, 14, 0.1);
+}
+.banner-content{
+     
+    max-width: 616px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 5rem;
+ 
+    
+}
+
+#brand-new{
+    font-size: 2.84rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+}
+
+#para-des{
+    font-size: 0.71rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #FF900E;
+    color: white;
+    padding: 20px 25px;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 35.5px;
+}
+
+.banner-img{
+    max-width: 1022px;
+    margin: 0 auto;
+}
+
+.banner-img img{
+    width: 100%;
+}
+
+
+
+
+/* Responsive for Mobile */
+
+/* header */
+
+@media screen and (max-width:576px){
+    nav {
+            flex-direction: column;   
+        }
+    .head-link{
+        margin-right: 10px;
+    }
+
+    .title{
+        margin-bottom: 20px;
+        margin-left: 10px;
+    }
+        
+     
+}
