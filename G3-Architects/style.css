@@ -276,11 +276,48 @@ nav{
     color: rgb(255, 255, 255);
 }
 
+/* some facts section */
+.some-facts{
+    max-width: 1022px;
+    margin: 0 auto;
+    margin-top: 92px;
+}
 
+.fact-description {
+    max-width: 383px;
+    margin-top: 17px;
+    margin-bottom: 35.5px;
+}
 
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 100px;
+}
 
+.fact-card{
+    border: 1px solid #FF900E;
+        width: 170px;
+        height: 170px;
+        border-radius: 8px;
+        text-align: center; 
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
 
+.fact-number {
+    font-size: 2.2rem;
+    font-weight: 600;
+    margin-top: 3.55px;
+    margin-bottom: 7px;
+}
 
+.fact-name {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-top: 7px;
+}
 
 
 
@@ -336,4 +373,21 @@ nav{
             width: 100%;
             padding: 10px;
         }
+}
+
+/* some-fact section */
+@media screen  and (max-width:576px){
+    .some-facts{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .card-container{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       gap: 30px;
+        
+    }
 }
