@@ -321,7 +321,34 @@ nav{
 
 
 
+/* sponsar styles */
+.sponsar{
+    max-width: 1022px;
+    margin: 0 auto;
+    margin-top: 92px;
+}
 
+.sponsar-content{
+    
+    text-align: center;
+}
+
+#sponsar-des{
+   margin-top: 28px;
+   margin-bottom: 35.5px;
+}
+
+.sponsor-companies {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.sponsor-companies img {
+    filter: grayscale(100%);
+}
+
+
+/* footer style */
 
 /* Responsive for Mobile */
 
@@ -389,5 +416,24 @@ nav{
        justify-content: center;
        gap: 30px;
         
+    }
+}
+
+/* sponsor styles */
+@media screen and (max-width:576px){
+    .sponsar{
+        flex-direction: column;
+    }
+
+    .sponsor-companies{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+
+    .sponsor-companies img{
+        max-width: 30%;
+        margin: 0 auto;
+        height: 20px;
+        margin-bottom: 15px;
     }
 }
