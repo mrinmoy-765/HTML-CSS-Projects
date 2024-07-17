@@ -190,6 +190,102 @@ nav{
 }
 
 
+/* lovely-features style */
+
+   
+.lovely-features{
+  max-width: 1022px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center; 
+}
+
+.card{
+     width: 416px;
+    height: auto; 
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+#fea-des{
+    width: 416px;
+    height: auto;
+    margin-bottom: 20px;
+    
+        font-size: 0.71rem;
+        font-weight: 400;
+        line-height: 1rem;
+        letter-spacing: 0%;
+       
+}
+
+#feature-enjoy{
+    border-left: 5px solid #FF900E;
+    padding-left: 20px;
+    margin-bottom: 17px;
+        font-size: 2rem;
+        font-weight: 700;
+        line-height: 2rem;
+        letter-spacing: 0%;
+}
+
+
+
+.feature-img img{
+    width: 100%;
+    padding-left:65px;
+    padding-bottom: 55px;
+}
+
+
+.card-title{
+    color: rgb(19, 19, 19);
+        font-size: 0.8rem;
+        font-weight: 600;
+        line-height: 1rem;
+      
+}
+
+.card-des{
+    color: rgb(114, 114, 114);
+        font-size: 0.71rem;
+        font-weight: 400;
+        line-height: 1rem;
+        letter-spacing: 0%;
+        
+}
+
+.btn-primary{
+    background-color: #FF900E;
+    border: none;
+    border-radius:5.68px;
+}
+
+#experience-badge {
+   padding: 2rem 5rem;
+   color: rgb(255, 255, 255);
+   margin-left: 20px;
+   
+}
+
+#experience-year {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+
+
+
+
+
 /* Responsive for Mobile */
 
 /* header */
@@ -227,4 +323,17 @@ nav{
         text-align: center;
     }
    
+}
+
+/* lovely feature section */
+@media screen and (max-width:576px){
+    
+    .lovely-features{
+    flex-direction: column;
+    }
+
+        .feature-img img {
+            width: 100%;
+            padding: 10px;
+        }
 }
