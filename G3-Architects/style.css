@@ -54,7 +54,7 @@
 
 body{
     max-width: 1920px;
-        margin: 0 auto;
+    margin: 0 auto;
 }
 
 /* Header Styles */
@@ -89,11 +89,16 @@ nav{
 
 .head-link a{
     text-decoration: none;
+    color: rgb(66, 66, 66);
+        font-size: 0.80rem;
+        font-weight: 500;
+        line-height: 26px;
 }
 
 /* banner style */
 .banner{
     background: rgba(255, 144, 14, 0.1);
+    padding-bottom: 2rem;
 }
 .banner-content{
      
@@ -137,7 +142,52 @@ nav{
     width: 100%;
 }
 
+/* main section styles */
 
+/* quick-list styles */
+.quick-list{
+    max-width: 1022px;
+    margin: 0 auto;
+    display: flex;
+    padding: 60px 25px;
+    align-items: center;
+    gap: 52px;
+}
+
+.quick-list-img{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:17px;
+}
+
+.quick-list-img img{
+    width: 243px;
+    height: 243px;
+}
+
+#list-head{
+    
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 1rem;
+}
+
+#feature-color{
+    color: #FF900E;
+}
+
+#quick-list-des{
+   
+    font-size: 0.71;
+    font-weight: 400;
+    line-height: 1.15rem;
+    letter-spacing: 0%;
+    margin-bottom: 1.3rem;
+}
+
+#quick-list{
+    font-weight: 500;
+}
 
 
 /* Responsive for Mobile */
@@ -158,4 +208,23 @@ nav{
     }
         
      
+}
+
+/* quick-list section */
+
+@media screen and (max-width:576px){
+    .quick-list{
+        flex-direction: column;
+       
+    }
+
+    .quick-list-img{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+     
+    .quick-list-content{
+        text-align: center;
+    }
+   
 }
