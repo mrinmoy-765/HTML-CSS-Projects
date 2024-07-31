@@ -64,12 +64,23 @@ body{
     /* 48px */
 }
 
+.font-6{
+    color: rgb(7, 2, 17);
+    font-size: 1.7rem;
+    font-weight: 600;
+    line-height: 2.97rem;
+    letter-spacing: 0%;
+}
+
 .btn-txt{
     font-size: 1.07rem;
     font-weight: 700;
+    padding: 1rem;
+    border: none;
+    color: white;
 }
 
-.new-year, .off, .party{
+.new-year, .off, .party, .event{
     padding: 2rem 7.43rem 4rem;
  }
 
@@ -204,15 +215,31 @@ color: rgb(255, 0, 0);
     margin-right: 7.33rem;
 }
 
+/* event styles */
+.event-content{
+    border-radius: 16px;
+    background: linear-gradient(180.00deg, rgba(255, 0, 0, 0.1), rgba(255, 0, 0, 0) 100%);
+}
 
+#hotel{
+    margin-top: 5.31rem;
+}
 
+#join-btn2{
+    background: rgb(255, 0, 0);
+    border-radius: 8px;
+    margin-top: 2.55rem;
+}
 
+.evnt-dtls{
+    color: rgb(255, 0, 0);
+}
 
 
 /* responsive for medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
     /* common styles  */
-    .new-year,.off, .party {
+    .new-year,.off, .party, .event {
         padding: 1.5rem 4rem 1rem;
     }
 }
@@ -228,7 +255,7 @@ color: rgb(255, 0, 0);
 /* responsive for small device */
 @media screen and (max-width:576px) {
      /* common styles */
-    .new-year, .off, .party {
+    .new-year, .off, .party, .event {
             padding: 1rem 1.06rem 1.5rem;
         }
     
@@ -278,3 +305,16 @@ color: rgb(255, 0, 0);
     }
 }
 
+/* event style */
+@media screen and (max-width:576px) {
+    .event-content p{
+        padding: 0 2rem;
+        font-size: 1rem;
+        text-align: left;
+    }
+
+    #join-btn2{
+        padding: .7rem;
+        font-size: .7rem;
+    }
+}
