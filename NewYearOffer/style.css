@@ -69,7 +69,7 @@ body{
     font-weight: 700;
 }
 
-.new-year, .off{
+.new-year, .off, .party{
     padding: 2rem 7.43rem 4rem;
  }
 
@@ -87,6 +87,12 @@ img{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+}
+
+.center-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* new year styles */
@@ -147,19 +153,82 @@ color: rgb(255, 0, 0);
 
 }
 
+
+/* midnight party styles */
+
+.party-bg {
+    width: 100%;
+    height: 31.87rem;
+    background-image: linear-gradient(90.00deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%), url("images/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    gap: 4rem;
+   
+}
+
+.party-content{
+    padding-left: 6.69rem;
+    width: 70%;
+ 
+}
+
+#mid-party{
+    color: rgb(255, 255, 255);
+        font-size: 3.4rem;
+        font-weight: 900;
+        line-height: 4.67rem;
+        letter-spacing: 6px;
+}
+
+#party-des{
+    color: rgba(255, 255, 255, 0.8);
+        font-size: 0.95rem;
+        font-weight: 400;
+        line-height: 1.59rem;
+        margin: 2rem 0;
+}
+
+#join-btn{
+    background: transparent;
+    color: white;
+    border: none;
+}
+
+
+.party-img{
+
+    width: 30%;
+    height: auto;
+    margin-right: 7.33rem;
+}
+
+
+
+
+
+
 /* responsive for medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
     /* common styles  */
-    .new-year,.off {
+    .new-year,.off, .party {
         padding: 1.5rem 4rem 1rem;
     }
 }
+
+@media screen and (min-width:576px) and (max-width:992px){
+    .party-img img{
+        display: none;
+    }
+}
+
 
 
 /* responsive for small device */
 @media screen and (max-width:576px) {
      /* common styles */
-    .new-year, .off {
+    .new-year, .off, .party {
             padding: 1rem 1.06rem 1.5rem;
         }
     
@@ -178,3 +247,34 @@ color: rgb(255, 0, 0);
         line-height: 3rem;
         }
 }
+
+/* midnight-party styles */
+
+@media screen and (max-width:576px) {
+    .party-bg {
+            flex-direction: column-reverse;
+        }
+    .party-content{
+        padding-left: 1rem;
+    }    
+
+    #mid-party {
+        
+            font-size: 1.8rem;
+            font-weight: 800;
+            line-height: 2.67rem;
+            letter-spacing: 3px;
+        }
+    #party-des {
+        font-size: 0.75rem;
+        font-weight: 300;
+        line-height: 1em;
+        margin: .80rem 0;
+    }
+
+    .party-bg{
+        gap: 2rem;
+        align-items: center;
+    }
+}
+
