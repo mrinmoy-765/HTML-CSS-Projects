@@ -49,6 +49,7 @@ body{
     font-size: 1.07rem;
     /* 20px */
     font-weight: 400;
+    line-height: 1.7rem;
 }
 
 .font-4 {
@@ -80,7 +81,7 @@ body{
     color: white;
 }
 
-.new-year, .off, .party, .event{
+.new-year, .off, .party, .event, .coming-soon{
     padding: 2rem 7.43rem 4rem;
  }
 
@@ -235,11 +236,57 @@ color: rgb(255, 0, 0);
     color: rgb(255, 0, 0);
 }
 
+/* coming soon styles */
+
+.coming-soon{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 5rem;
+}
+
+#cs-h1{
+    margin: 1.55rem 0;
+    line-height: 3.18rem;
+}
+
+.pt-1{
+    padding-top: 5.52rem;
+}
+
+#year{
+    color: rgb(255, 0, 0);
+        font-size: 2.55rem;
+        font-weight: 700;
+        line-height: 3.08rem;
+        letter-spacing: 0%;
+}
+
+#year-des{
+    line-height: 1.7rem;
+    margin: 2rem 0;
+}
+
+.cs-content3 img{
+         width: 7.43rem;
+         height: 7.43rem;
+}
+
+.cs-content2 img{
+    width: 19.39rem;
+    height: 19.39rem;
+    border-radius: 100px;
+}
+
+.cs-content2{
+    border: 15px solid red;
+    padding: 2.60rem;
+    border-radius: 16rem;
+}
 
 /* responsive for medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
     /* common styles  */
-    .new-year,.off, .party, .event {
+    .new-year,.off, .party, .event, .coming-soon {
         padding: 1.5rem 4rem 1rem;
     }
 }
@@ -248,14 +295,34 @@ color: rgb(255, 0, 0);
     .party-img img{
         display: none;
     }
+
+    .coming-soon {
+            /* grid-template-columns: repeat(1, 1fr);
+            align-content: center; */
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+    .cs-content2 {
+           
+        border: none;
+        padding: 0px;
+          }
+
+    .pt-1{
+        padding-top: 0px;
+    }       
 }
+
 
 
 
 /* responsive for small device */
 @media screen and (max-width:576px) {
      /* common styles */
-    .new-year, .off, .party, .event {
+    .new-year, .off, .party, .event, .coming-soon {
             padding: 1rem 1.06rem 1.5rem;
         }
     
@@ -303,6 +370,8 @@ color: rgb(255, 0, 0);
         gap: 2rem;
         align-items: center;
     }
+
+    
 }
 
 /* event style */
@@ -317,4 +386,25 @@ color: rgb(255, 0, 0);
         padding: .7rem;
         font-size: .7rem;
     }
+}
+
+/* coming soon styles */
+@media screen and (max-width:576px) {
+    .coming-soon{
+        grid-template-columns: repeat(1,1fr);
+        height: auto;
+        }
+    .pt-1{
+        padding-top: 0rem;
+    }    
+
+     .cs-content2 {
+        border: none;
+        padding: 0px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;  
+    }
+  
 }
