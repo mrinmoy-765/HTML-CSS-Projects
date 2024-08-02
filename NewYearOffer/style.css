@@ -274,13 +274,9 @@ color: rgb(255, 0, 0);
 .cs-content2 img{
     width: 19.39rem;
     height: 19.39rem;
-    border-radius: 100px;
-}
-
-.cs-content2{
     border: 15px solid red;
-    padding: 2.60rem;
-    border-radius: 16rem;
+    padding: 1.5rem;
+    border-radius: 200px;
 }
 
 /* responsive for medium device */
@@ -292,31 +288,49 @@ color: rgb(255, 0, 0);
 }
 
 @media screen and (min-width:576px) and (max-width:992px){
+   
+    .pt-1{
+            padding-top: 0px;
+        }
     .party-img img{
         display: none;
     }
-
+/* coming soon styles */
     .coming-soon {
-            /* grid-template-columns: repeat(1, 1fr);
-            align-content: center; */
-            display: flex;
-            align-items: center;
-            flex-direction: column;
-            justify-content: center;
+            grid-template-columns: repeat(2, 1fr);
+           column-gap: 3rem;
         }
+        
+    .cs-content2 img {
+     width: 16.39rem;
+     height: 16.39rem;
+     border: 12px solid red;
+     padding: 1.5rem;
+     border-radius: 200px;
+  
+ }
+ .cs-content2{
+    padding-top: 3rem;
+ }
 
-    .cs-content2 {
-           
-        border: none;
-        padding: 0px;
-          }
+ .cs-content3 {
+     display: grid;
+    grid-column: 1 / span 2;
+    align-items: center;
+    justify-items: center;                      
+ }
 
-    .pt-1{
-        padding-top: 0px;
-    }       
+ .cs-content3 .content {
+     order: 2;
+ }
+
+ .cs-content3 img {
+     order: 1;
+ }
+#year-des{
+    margin: 0rem;
 }
-
-
+}
 
 
 /* responsive for small device */
@@ -388,8 +402,9 @@ color: rgb(255, 0, 0);
     }
 }
 
-/* coming soon styles */
+
 @media screen and (max-width:576px) {
+    /* coming soon styles */
     .coming-soon{
         grid-template-columns: repeat(1,1fr);
         height: auto;
@@ -397,14 +412,33 @@ color: rgb(255, 0, 0);
     .pt-1{
         padding-top: 0rem;
     }    
+         
 
-     .cs-content2 {
-        border: none;
-        padding: 0px;
+    .cs-content2 {
         display: flex;
-        align-items: center;
         justify-content: center;
-        flex-direction: column;  
+        align-items: center;
+        
+        }
+
+    .cs-content2 img {
+        width: 16.39rem;
+        height: 16.39rem;
+        border: 8px solid red;
+        padding: 1rem;
+        border-radius: 200px;
+        }
+
+    .cs-content3{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    #year{
+        display: flex;
+        justify-content: center;
+        margin: 1.5rem 0rem;
     }
   
 }
