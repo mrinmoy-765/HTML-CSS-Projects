@@ -56,6 +56,7 @@ body{
 }
 
 .font-4 {
+    font-family: "inter";
     font-size: 1.28rem;
     font-weight: 500;
     color: rgb(7, 2, 12);
@@ -87,7 +88,7 @@ body{
 
 .new-year, .off, .party,
 .event, .coming-soon, .holiday, 
-.portfolio, .subscribe{
+.portfolio, .subscribe, .footer-content{
     padding: 2rem 7.43rem 4rem;
  }
 
@@ -392,6 +393,35 @@ color: rgb(255, 0, 0);
 }
 
 
+/* footer styles */
+
+footer {
+    background: rgb(7, 2, 17);
+}
+.lh{
+    line-height: 2.12rem;
+   
+   
+}
+.contact, .copy-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.social {
+    gap: 1rem;
+    padding: 2rem 0;
+    border-top: 1px solid gray ;
+    border-bottom: 1px solid gray;
+}
+
+.social img {
+    height: 64px;
+    width: 64px;
+    object-fit: cover;
+}
+
 
 
 
@@ -401,7 +431,7 @@ color: rgb(255, 0, 0);
     /* common styles  */
     .new-year,.off, .party,
     .event, .coming-soon, .holiday,
-    .portfolio, .subscribe{
+    .portfolio, .subscribe, .footer-content{
         padding: 1.5rem 4rem 1rem;
     }
 }
@@ -491,9 +521,16 @@ color: rgb(255, 0, 0);
     padding: 0 5rem;
 }
 
+/* footer styles */
+
+.contact,
+.copy-right {
+    gap: 1.5rem;
+    margin-top: 1rem;
 }
 
 
+}
 
 
 
@@ -513,6 +550,12 @@ color: rgb(255, 0, 0);
        grid-template-columns: repeat(2, 1fr);
        gap: .80rem;
    }
+
+   .contact,
+   .copy-right {
+       gap: 1.5rem;
+       margin-top: 1rem;
+   }
 }
 
 
@@ -531,7 +574,7 @@ color: rgb(255, 0, 0);
      /* common styles */
     .new-year, .off, .party,
     .event, .coming-soon,
-    .holiday, .portfolio, .subscribe {
+    .holiday, .portfolio, .subscribe, .footer-content {
             padding: 1rem 1.06rem 1.5rem;
         }
     
@@ -700,4 +743,12 @@ color: rgb(255, 0, 0);
     height: 2.82rem;
     font-size: .60rem;
 }
+.contact, .copy-right{
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    margin-top: 1rem;
+}
+
 }
