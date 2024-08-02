@@ -87,7 +87,7 @@ body{
 
 .new-year, .off, .party,
 .event, .coming-soon, .holiday, 
-.portfolio{
+.portfolio, .subscribe{
     padding: 2rem 7.43rem 4rem;
  }
 
@@ -331,6 +331,68 @@ color: rgb(255, 0, 0);
     gap: 1rem;
 }
 
+/* subscribe styles */
+
+.subscribe-content{
+    padding-top: 4.25rem;
+    border-radius: 16px;
+    background: rgba(255, 0, 0, 0.05);
+}
+
+.subscribe-content img{
+    width: 150px;
+    height: 150px;
+}
+
+#sub-p{
+    padding: 0 10rem;
+    margin-bottom: 2rem;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 3rem;
+}
+
+.custom-input{
+    width: 23.26rem;
+    height: 3.82rem;
+    border-radius: 50px 0 0 50px;
+    border: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+/* Placeholder text color */
+.custom-input::placeholder {
+    color: grey;
+    padding-left: 3rem;
+}
+
+.custom-input:focus {
+    border-color: #021320;
+    /* Optional: change border color on focus */
+    box-shadow: 0 0 5px rgba(13, 21, 27, 0.6);
+    /* Optional: add shadow on focus */
+}
+
+.subscribe-button{
+    width: 11.15rem;
+    height: 3.82rem;
+    border-radius: 0px 50px 50px 0px;
+    background-color: rgb(255, 0, 0);
+        color: white;
+        cursor: pointer;
+        outline: none;
+        margin-left: 0;
+        border: none;
+        font-size: 1.06rem;
+}
+
+
+
 
 
 
@@ -339,7 +401,7 @@ color: rgb(255, 0, 0);
     /* common styles  */
     .new-year,.off, .party,
     .event, .coming-soon, .holiday,
-    .portfolio {
+    .portfolio, .subscribe{
         padding: 1.5rem 4rem 1rem;
     }
 }
@@ -424,6 +486,10 @@ color: rgb(255, 0, 0);
     gap: .80rem;
 }
 
+/* subscribe-stylers */
+#sub-p {
+    padding: 0 5rem;
+}
 
 }
 
@@ -465,7 +531,7 @@ color: rgb(255, 0, 0);
      /* common styles */
     .new-year, .off, .party,
     .event, .coming-soon,
-    .holiday, .portfolio {
+    .holiday, .portfolio, .subscribe {
             padding: 1rem 1.06rem 1.5rem;
         }
     
@@ -601,6 +667,37 @@ color: rgb(255, 0, 0);
       flex-direction: column;
   }
 
+/* subscribe style */
 
+.subscribe-content {
+    padding-top: 2.25rem;
+    text-align: center;
+}
 
+.subscribe-content img {
+    width: 150px;
+    height: 150px;
+}
+
+#sub-p {
+    padding: 0rem;
+    margin-bottom: 1rem;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1.5rem;
+}
+
+.custom-input {
+    width: 14.26rem;
+    height: 2.50rem;
+}
+
+.subscribe-button {
+    width: 5.15rem;
+    height: 2.82rem;
+    font-size: .60rem;
+}
 }
