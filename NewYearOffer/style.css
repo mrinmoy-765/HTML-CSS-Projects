@@ -85,7 +85,9 @@ body{
     color: white;
 }
 
-.new-year, .off, .party, .event, .coming-soon, .holiday{
+.new-year, .off, .party,
+.event, .coming-soon, .holiday, 
+.portfolio{
     padding: 2rem 7.43rem 4rem;
  }
 
@@ -316,8 +318,18 @@ color: rgb(255, 0, 0);
     padding: 0 6.69rem;
 }
 
+/* portfolio styles */
+.p{
+    width: 22.57rem;
+    height: 23.90rem;
+}
 
-
+.portfolio-img{
+    margin-top: 2.55rem;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem;
+}
 
 
 
@@ -325,7 +337,9 @@ color: rgb(255, 0, 0);
 /* responsive for medium device */
 @media screen and (min-width:576px) and (max-width:992px) {
     /* common styles  */
-    .new-year,.off, .party, .event, .coming-soon, .holiday {
+    .new-year,.off, .party,
+    .event, .coming-soon, .holiday,
+    .portfolio {
         padding: 1.5rem 4rem 1rem;
     }
 }
@@ -397,12 +411,42 @@ color: rgb(255, 0, 0);
     margin-bottom: 17rem;
 }
 
+/* portfolio styles */
+ .p{
+    width: 100%;
+    height: 100%;
+} 
+
+.portfolio-img {
+    margin-top: 1.90rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: .80rem;
 }
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 @media screen and (min-width:1024px) and (max-width:1030px) {
     .holi-img-2 {
             left: 33rem;
         }
+   .portfolio-img {
+       margin-top: 1.90rem;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       gap: .80rem;
+   }
 }
 
 
@@ -419,7 +463,9 @@ color: rgb(255, 0, 0);
 /* responsive for small device */
 @media screen and (max-width:576px) {
      /* common styles */
-    .new-year, .off, .party, .event, .coming-soon, .holiday {
+    .new-year, .off, .party,
+    .event, .coming-soon,
+    .holiday, .portfolio {
             padding: 1rem 1.06rem 1.5rem;
         }
     
@@ -545,4 +591,16 @@ color: rgb(255, 0, 0);
   .holiday-content {
       margin-bottom: 10rem;
   }
+  
+  /* portfolio styles */
+  .portfolio-img {
+      margin-top: 1.50rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+  }
+
+
+
 }
