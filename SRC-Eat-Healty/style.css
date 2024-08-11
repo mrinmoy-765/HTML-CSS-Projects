@@ -32,8 +32,8 @@ body{
     padding-right: 120px;
 }
 #bnr-img-1{
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
     /* position: relative; */
 }
 
@@ -89,3 +89,204 @@ position: relative;
         font-size: 1.3rem;
 }
 
+/* about me styles */
+
+.about-me{
+    margin-top: 5rem;
+    padding-left: 12rem;
+    padding-right: 12.65rem;
+    gap: 12rem;
+    background: url("images/shapes/7.png");
+}
+
+.about-me img{
+    width: 20rem;
+    height: 32rem;
+    padding-top: 3.8rem;
+}
+
+.about-content h1{
+    color: rgb(112, 112, 112);
+        font-size: 2.37rem;
+        font-weight: 700;
+        line-height: 3.20rem;
+        padding-bottom: 1.9rem;
+}
+
+.about-me p{
+    color: rgb(24, 25, 31);
+        font-size: 1.07rem;
+        font-weight: 400;
+        line-height: 1.9rem;
+        padding-bottom: 5.34rem;
+}
+
+
+/* responsive for medium devices */
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    
+    /* banner styles */
+.banner {
+        padding-top: 90px;
+        padding-left: 40px;
+        padding-right: 80px;
+       
+    }
+
+    #bnr-img-1 {
+        width: 350px;
+        height: 350px;
+        /* position: relative; */
+    }
+
+    .banner-img {
+        position: relative;
+        left: 70px;
+    }
+
+    #bnr-img-2 {
+        width: 450px;
+        height: 450px;
+    }
+
+ 
+    .bnr-title {
+        font-size: 35px;
+    }
+
+    #bnr-des {
+        font-size: 15px;
+        margin: 25px 0px;
+        padding: 0px;
+    }
+
+    .btn {
+        width: 162px;
+        height: 48px;
+        padding: 20px 28px 20px 28px;
+        font-size: 1rem;
+    }
+/* about me styles */
+
+.about-me {
+    margin-top: 5rem;
+    padding-left: 6rem;
+    padding-right: 6rem;
+    gap: 4rem;
+    background: url("images/shapes/7.png");
+}
+
+.about-me img {
+    width: 12rem;
+    height: 20rem;
+    padding-top: 2.8rem;
+}
+
+.about-content h1 {
+    color: rgb(112, 112, 112);
+    font-size: 1.97rem;
+    font-weight: 700;
+    line-height: 2.20rem;
+    padding-bottom: 1.9rem;
+}
+
+.about-me p {
+    color: rgb(24, 25, 31);
+    font-size: .90rem;
+    font-weight: 400;
+    line-height: 1rem;
+    padding-bottom: 3.34rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+/* responsive for small devices */
+@media screen and (max-width:576px) {
+    
+    /* banner section */
+
+    .banner {
+        padding-top: 90px;
+        padding-left: 40px;
+        padding-right: 40px;
+        flex-direction: column-reverse;
+    
+        }
+    
+    #bnr-img-1 {
+        width: 300px;
+        height: 300px;
+            /* position: relative; */
+        }
+    
+    .banner-img {
+        position: relative;
+        /* left: 70px; */
+        }
+    
+    #bnr-img-2 {
+            width: 350px;
+            height: 350px;
+            left: -55px;
+            bottom: 18px;
+        }
+    
+    
+    .bnr-title {
+            font-size: 35px;
+        }
+    
+    #bnr-des {
+            font-size: 15px;
+            margin: 25px 0px;
+            padding: 0px;
+        }
+    
+    .btn {
+            width: 162px;
+            height: 48px;
+            padding: 20px 28px 20px 28px;
+            font-size: 1rem;
+        }
+
+  .about-me {
+      margin-top: 5rem;
+      padding-left: 3rem;
+      padding-right: 3rem;
+      background: url("images/shapes/7.png");
+      flex-direction: column;
+      gap: 2rem;
+  }
+
+  .about-me img {
+      width: 14rem;
+      height: 23rem;
+      padding-top: 2.8rem;
+  }
+
+  .about-content h1 {
+      padding-bottom: 1rem;
+  }
+
+  .about-me p {
+      padding-bottom: 2.34rem;
+  }
+}
