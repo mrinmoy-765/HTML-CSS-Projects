@@ -182,7 +182,7 @@ position: relative;
 /* social styles */
 
 .social{
-    padding: 0 7,71rem;
+    padding: 0 7.71rem;
     margin-bottom: 5rem;
 }
 
@@ -209,6 +209,30 @@ position: relative;
         line-height: 1.54rem;
 }
 
+
+/* footer styles */
+footer{
+    background: rgb(11, 13, 23);
+    padding: 5rem 0;
+}
+
+footer h1{
+        color: gray;
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 0px;
+        letter-spacing: 0%;
+        text-align: center;
+        margin-bottom: 2rem;
+}
+
+footer p{
+    color: rgb(255, 255, 255);
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+        text-align: center;
+}
 
 /* responsive for medium devices */
 
