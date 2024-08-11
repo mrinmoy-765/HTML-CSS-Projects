@@ -179,11 +179,35 @@ position: relative;
 }
 
 
+/* social styles */
 
+.social{
+    padding: 0 7,71rem;
+    margin-bottom: 5rem;
+}
 
+.social-content{
+    border-radius: 30px;
+    box-shadow: 0px 4px 40px 0px rgba(0, 0, 0, 0.15);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 4rem 0;
+}
 
+.social-content h1{
+    color: rgb(24, 25, 31);
+        font-size: 2.85rem;
+        font-weight: 700;
+        line-height: 3.8rem;
+}
 
-
+.social-content p{
+    color: rgb(24, 25, 31);
+        font-size: 0.95rem;
+        font-weight: 400;
+        line-height: 1.54rem;
+}
 
 
 /* responsive for medium devices */
@@ -285,9 +309,11 @@ position: relative;
 
 
 
+/* social styles */
 
-
-
+.social {
+    padding: 0 4rem;
+}
 
 
 
@@ -415,4 +441,17 @@ position: relative;
       font-size: 1rem;
       line-height: 1.37rem;
   }
+
+/* social styles */
+
+.social{
+    padding: 0 3rem;
+}
+
+.social-content{
+    gap: 20px;
+    justify-content: center;
+    flex-direction: column;
+}
+
 }
