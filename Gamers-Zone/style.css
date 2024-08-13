@@ -1,3 +1,6 @@
+/* 0.71 */
+
+
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 *{
@@ -11,3 +14,73 @@ body{
     margin: 0 auto;
     font-family: "work Sans";
 }
+
+/* common-styles */
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* nav styles */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 1.5rem 0;
+}
+
+.nav-left img{
+    width: 3.82rem;
+    height: 1.78rem;
+    margin-right: .8rem;
+}
+
+#G{
+    background: linear-gradient(90.00deg, rgb(255, 66, 165), rgb(255, 66, 165));
+        -webkit-background-clip:
+            text;
+        -webkit-text-fill-color:
+            transparent;
+        background-clip:
+            text;
+        -webkit-text-fill-color:
+            transparent;
+}
+
+.nav-left p{
+    font-size: 2rem;
+        font-weight: 700;
+        line-height: 2.35rem;
+}
+
+
+
+.nav-right ul{
+    list-style: none;
+    gap: 1.5rem;
+}
+
+.nav-text{
+    color: rgb(60, 53, 79);
+        font-size: .80rem;
+        font-weight: 500;
+        line-height: .93rem;
+        letter-spacing: 0%;
+    }
+#follow{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+    padding: .7rem;
+}
+
+.fa-youtube{
+    margin: 0 7px;
+}
+
+
+
+
+
+
+
