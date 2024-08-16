@@ -307,6 +307,27 @@ nav{
       padding: 4.5px 0;
 
   }
+/* gamer styles */
+.gamer {
+    flex-direction: column;
+}
+
+.gamer-img {
+    width: 22.62rem;
+    height: 12.70rem;
+}
+
+.gamer-content {
+    text-align: center;
+}
+
+#unleash {
+    font-size: 1.30rem;
+    line-height: 1rem;
+}
+
+
+
 }
 
 
