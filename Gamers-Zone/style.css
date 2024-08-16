@@ -189,9 +189,9 @@ nav{
     /* common styles */
     .btn {
             font-size: .77rem;
-            padding: .75rem .70rem;
+            padding: .65rem .70rem;
             border-radius: 42px;
-            margin: .9rem 0;
+            margin: .2rem 0;
         }
 
 
@@ -222,7 +222,7 @@ nav{
     
     
     .banner-content {
-            padding: 1rem 3rem;
+            padding: 2rem 3rem;
         }
     
     .banner-img {
@@ -247,4 +247,107 @@ nav{
       padding: 4.5px 0;
 
   }
+}
+
+
+/* responsive for medium devices -- laptop small screen */
+@media screen and (min-width:576px) and (max-width:1024px) {
+   
+    /* common styles */
+        .btn {
+            font-size: 1.3rem;
+            padding: 1rem 3rem;
+            border-radius: 42px;
+            margin: .9rem 0;
+        }
+
+
+         /* banner styles */
+        .banner {
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 0 3rem;
+        }
+    
+    
+        .banner-content {
+            padding: 2rem 4rem;
+        }
+    
+        .banner-img {
+            padding: 0 1rem;
+        }
+    
+        .banner-img {
+            width: 35.70rem;
+            height: auto;
+        }
+    
+        #play {
+            font-size: 4.12rem;
+            line-height: 1.48rem;
+            margin-bottom: 2rem;
+        }
+    
+        #goat {
+            font-size: 4.22rem;
+            line-height: 2.92rem;
+            margin-bottom: 1rem;
+        }
+    
+        .banner-content p {
+            padding: 8.5px 0;
+            font-size: 1.5rem;
+    
+        }
+}
+
+
+/* responsive for  medium devices --large screens and desktops  */
+@media screen and (min-width:1024px) and (max-width:1200px) {
+    /* common styles */
+        .btn {
+            font-size: 1.5rem;
+            padding: 1.2rem 4rem;
+            border-radius: 42px;
+            margin: 1.2rem 0;
+        }
+    
+    
+        /* banner styles */
+        .banner {
+            display: flex;
+            flex-direction: column-reverse;
+            padding: 0 3rem;
+        }
+    
+    
+        .banner-content {
+            padding: 4rem 12rem;
+        }
+    
+        
+    
+        .banner-img {
+            width: 35.70rem;
+            height: auto;
+        }
+    
+        #play {
+            font-size: 4.12rem;
+            line-height: 1.48rem;
+            margin-bottom: 2rem;
+        }
+    
+        #goat {
+            font-size: 4.22rem;
+            line-height: 2.92rem;
+            margin-bottom: 1rem;
+        }
+    
+        .banner-content p {
+            padding: 12px 0;
+            font-size: 1.9rem;
+    
+        }
 }
