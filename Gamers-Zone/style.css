@@ -335,6 +335,10 @@ nav{
 @media screen and (min-width:576px) and (max-width:1024px) {
    
     /* common styles */
+
+    .gamer{
+        padding: 1rem 3rem;
+    }
         .btn {
             font-size: 1.3rem;
             padding: 1rem 3rem;
@@ -381,6 +385,32 @@ nav{
             font-size: 1.5rem;
     
         }
+
+         /* gamer styles */
+        .gamer {
+             flex-direction: column;
+         }
+    
+        .gamer-img {
+             width: 28.62rem;
+             height: 12.70rem;
+         }
+    
+        .gamer-content {
+             text-align: center;
+         }
+    
+        #unleash {
+             font-size: 1.70rem;
+             line-height: 1rem;
+         }
+
+        .gamer-content p {
+                    font-size: 1rem;
+                }
+        #purpose {
+                    font-size: 1.4rem;
+                }
 }
 
 
@@ -431,4 +461,18 @@ nav{
             font-size: 1.9rem;
     
         }
+
+
+/* gamer styles */
+        .gamer-content p {
+            font-size: 1.3rem;
+        }
+    
+        #purpose {
+            font-size: 1.4rem;
+        }
+ .gamer-img {
+     width: 38.62rem;
+     height: 22.70rem;
+ }
 }
