@@ -383,7 +383,8 @@ width: 14rem;
             margin: .2rem 0;
         }
     .gamer, 
-    .videos{
+    .videos,
+    .install{
         padding: 1rem 3rem;
     }
 
@@ -490,6 +491,57 @@ width: 14rem;
     overflow: hidden;
     position: relative;
 }
+
+
+/* install styles */
+
+.install{
+    flex-direction: column;
+}
+
+.install-content {
+    text-align: center;
+    padding-right:0rem;
+    margin-top: 3rem;
+}
+
+.install-content p{
+    margin: 2rem 0rem;
+}
+
+#ins-img1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+    padding-left: 4rem;
+}
+
+#ins-img2 {
+width: 7rem;
+    height: 8.19rem;
+    position: absolute;
+    top: 201rem;
+    left: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 /* responsive for medium devices -- laptop small screen */
