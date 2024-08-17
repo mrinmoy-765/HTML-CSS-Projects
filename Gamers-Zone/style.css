@@ -654,6 +654,56 @@ width: 7rem;
             overflow: hidden;
             position: relative;
         }
+
+/* install styles */
+.install {
+    flex-direction: column;
+}
+
+.install-content {
+    text-align: center;
+    padding-right: 0rem;
+    margin-top: 3rem;
+}
+
+.install-content p {
+    margin: 2rem 0rem;
+}
+
+#ins-img1 {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+#ins-img2 {
+    width: 11rem;
+        position: absolute;
+        top: 180rem;
+        left: 5rem;
+        height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
@@ -717,5 +767,14 @@ width: 7rem;
  .gamer-img {
      width: 38.62rem;
      height: 22.70rem;
+ }
+
+ /* install styles */
+ #ins-img2 {
+     width: 13rem;
+     position: absolute;
+     top: 210rem;
+     left: 5rem;
+     height: auto;
  }
 }
