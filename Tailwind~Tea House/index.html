@@ -5,9 +5,54 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- tailwind config -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+    <!-- Font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+    .manrope {
+        font-family: "Manrope", sans-serif;
+        font-optical-sizing: auto;
+    }
+    </style>
+    <title>Tea~House</title>
 </head>
-<body>
-    <h1>hello world</h1>
+<body class="max-w-screen-2xl  mx-auto ">
+    <main class="px-60">
+      <!-- hero section -->
+     <section class="flex mt-14">
+            <div class="w-7/12">
+                <h1 class="text-7xl font-extrabold">It's good
+                    tea time at The Tea House</h1>
+                <p class="text-lg font-medium my-3">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="h-14 bg-gradient-to-r from-orange-500 to-red-500 p-3 text-white font-bold rounded-lg">Explore More</button>
+            </div>
+        <!-- Image Content -->
+        <div class="relative w-5/12">
+            <!-- Image -->
+            <div>
+                <img class="w-full" src="./images/banner.png" alt="" />
+            </div>
+            <!-- Card -->
+            <div
+                class="absolute flex items-center bg-white shadow-lg px-2 py-2 md:px-10 lg:py-4 rounded-lg top-21 left-10">
+                <!-- icon -->
+                <div><i class="fa-solid fa-star text-2xl text-amber-500"></i></div>
+                <!-- Text -->
+                <div class="ml-2">
+                    <h2 class="lg:text-2xl font-bold">5.00</h2>
+                    <p class="text-gray-500">Trust Pilot Ratings</p>
+                </div>
+            </div>
+        </div>
+
+      </section>
+      
+    </main>
+   
 </body>
 </html>
